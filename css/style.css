@@ -8,6 +8,7 @@
 
 body {
     background-color: black;
+    font-family: sans-serif;
 }
 
 .flx {
@@ -55,10 +56,71 @@ header button:hover i {
 footer {
     height: 80px;
     width: 100%;
-    background: green;
+    background: #222222;
+    color: white;
     position: fixed;
     bottom: 0;
     left: 0;
+    justify-content: space-between;
+}
+
+.overlay span {
+    display: block;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div i {
+    font-size: 30px;
+}
+
+footer div span {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.call-settings, .work-settings {
+    align-items: center;
+}
+
+.icon, .hovered-green{
+    padding: 10px;
+}
+
+.green-icon {
+    color: #4BC800;
+}
+
+.hovered-green:hover {
+    color: #4BC800;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #62A9FF;
+    cursor: pointer;
+}
+
+.up-arrow {
+    font-size: 16px;
+}
+
+.end {
+    display: inline-block;
+    line-height: 80px;
+    background: #4A4A4A;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    padding: 0 40px;
+}
+
+.end:hover {
+    cursor: pointer;
+    background-color: red;
 }
 
 
