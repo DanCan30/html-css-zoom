@@ -26,12 +26,30 @@ body {
 }
 
 header {
-    height: 50px;
     width: 100%;
-    background: yellow;
     position: fixed;
     top: 0;
     left: 0;
+    line-height: 50px;
+    text-align: right;
+}
+
+header button {
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #4A4A4A;
+    padding: 8px;
+    margin:  40px 20px 40px 0;
+}
+
+header button:hover {
+    cursor: pointer;
+}
+
+header button:hover i {
+    color: #4BC800;
 }
 
 footer {
@@ -49,12 +67,13 @@ footer {
 /* Main */
 
 main {
-    width: 90%;
+    width: 95%;
+    max-width: 3092px;
     margin: 100px auto;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .user {
-    padding: 20px;
+    padding: 10px;
 }
